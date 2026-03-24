@@ -29,37 +29,5 @@ En tant qu’équipe Data Analysts, nous devons développer un dashboard interac
 ```bash
 pip install streamlit pandas sqlalchemy psycopg2-binary matplotlib seaborn python-dotenv
 
-## Créer un fichier .env à la racine et définir les variables suivantes :
-```bash
-DB_USER=ton_utilisateur
-DB_PASSWORD=ton_mot_de_passe
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=superstore_db
-Lancement du dashboard
 
-## Pour lancer le dashboard Streamlit :
 
-streamlit run dashboard.py
-
-## Fonctionnalités principales
-## KPIs principaux :
- Total Sales, Total Profit, Profit Margin
-## Filtres interactifs :
-  Région, Catégorie, Période (Mois-Année)
-## Visualisations :
-Bar chart : Ventes par catégorie
-Line chart : Ventes par mois
-Pie chart : Répartition des ventes par catégorie
-Top 10 produits
-Heatmap : Ventes par région et catégorie
-Aperçu des données : Table interactive pour inspecter les premières lignes
-
-## Étapes principales du projet
-- Connexion à PostgreSQL et extraction des données
-- Préparation et nettoyage des données
-- Feature engineering : mois-année, profit ratio, top produits et clients
-- Création des visualisations avec matplotlib et seaborn
-- Construction du dashboard interactif avec Streamlit
-- Test et validation de la lisibilité, filtres et KPIs
-- Préparation des livrables et documentation pour l’utilisateur
