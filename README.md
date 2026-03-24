@@ -30,6 +30,7 @@ En tant qu’équipe Data Analysts, nous devons développer un dashboard interac
 pip install streamlit pandas sqlalchemy psycopg2-binary matplotlib seaborn python-dotenv
 
 ## Créer un fichier .env à la racine et définir les variables suivantes :
+```bash
 DB_USER=ton_utilisateur
 DB_PASSWORD=ton_mot_de_passe
 DB_HOST=localhost
